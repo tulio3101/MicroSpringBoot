@@ -1,9 +1,0 @@
-/home/tulio/Documents/Repositories/ServidorWeb/src/main/java/tdse/servidor/web/ComponentsExamples/HelloWebApp.java
-/home/tulio/Documents/Repositories/ServidorWeb/src/main/java/tdse/servidor/web/ServidorWeb/ServidorWebApplication.java
-/home/tulio/Documents/Repositories/ServidorWeb/src/main/java/tdse/servidor/web/ServidorWebBrowser/HttpServer.java
-/home/tulio/Documents/Repositories/ServidorWeb/src/main/java/tdse/servidor/web/ServidorWebBrowser/Request.java
-/home/tulio/Documents/Repositories/ServidorWeb/src/main/java/tdse/servidor/web/ServidorWebBrowser/WebMethod.java
-/home/tulio/Documents/Repositories/ServidorWeb/src/main/java/tdse/servidor/web/Sockets/EchoClient.java
-/home/tulio/Documents/Repositories/ServidorWeb/src/main/java/tdse/servidor/web/Sockets/EchoServer.java
-/home/tulio/Documents/Repositories/ServidorWeb/src/main/java/tdse/servidor/web/Utilities/URLParser.java
-/home/tulio/Documents/Repositories/ServidorWeb/src/main/java/tdse/servidor/web/Utilities/URLReader.java
