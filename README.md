@@ -104,7 +104,7 @@ To deploy on a live system:
 
 ## Authors
 
-- **Tulio Riñano Sánchez** 
+- **Tulio Riaño Sánchez** 
 
 ## License
 
