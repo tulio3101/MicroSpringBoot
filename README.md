@@ -68,34 +68,32 @@ public class GreetingController {
     }
 }
 ```
+## Deployment in AWS EC2
 
-## Running the tests
+To perform the deployment on Amazon AWS, we first enter the lab module and start the respective one.
 
-To run the automated tests:
+![alt text](docs/images/startingLab.png)
 
-```bash
-mvn test
-```
+After this, we select the EC2 service, where we will launch the instance; in this case, we will use the one used in the lab session.
 
-### End to end tests
+![alt text](docs/images/selectingEC2.png)
 
-The tests verify:
-- Controller loading via reflection
-- Correct URI to method mapping
-- `@RequestParam` parameter processing
-- Static file delivery (HTML, PNG)
+As i mentioned previously. we enter the instances section and select it.
 
-### Code style tests
+![alt text](docs/images/selectingInstance.png)
 
-The project follows Java code conventions and uses best programming practices.
+In this section, we will use the DNS provided by the service to test the instance.
 
-## Deployment
+![alt text](docs/images/dnsaccess.png)
 
-To deploy on a live system:
+From the console. I connect to the instance via ssh.
 
-1. Compile the project: `mvn clean package`
-2. Run the generated JAR or use the compiled classes directly
-3. Configure the server port as needed
+![alt text](docs/images/sshaccess.png)
+
+By accessing the class directory that we exported from our SpringBoot micro SpringBoot and using the java cp (classpath) commmand (specifying the parameters.) We obtain the output.
+
+![alt text](docs/images/execute.png)
+
 
 ## Built With
 
